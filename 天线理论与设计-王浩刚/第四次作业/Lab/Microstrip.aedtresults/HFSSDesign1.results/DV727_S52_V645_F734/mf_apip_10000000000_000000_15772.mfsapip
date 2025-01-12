@@ -1,0 +1,68 @@
+$begin date_time_stamp
+	timesinceepock:1730684655
+$end date_time_stamp
+$begin sysinfo
+	os:win
+	cpuid:'12th Gen Intel(R) Core(TM) i5-12600KF'
+	cpumodel:NA
+	cpubrand:intel
+	cpuPhyCores:10
+	cpuLogCores:16
+	cpufreqkhz:0
+	cpucachelinesize:64
+	cpuestllcmb:20
+	cpuestgflops:273.6
+	cpuestbwkbps:76.8
+	numnumanodes:1
+	virtualmemkb:1.37439e+11
+	pagesizekb:4096
+$end sysinfo
+$begin matsolver
+	$begin matsolverinfo
+		solvertype:shared_memory
+		solverprecision:double
+		solversymmetry:complex_symm
+		matrixdim:29851
+		matrixbw:20.3568
+		matrixnnz:607672
+		rootdim:607
+		mathlib:mkl
+		nummpitasks:1
+		numthreadpermpitasks:0
+	$end matsolverinfo
+	$begin matsolveranalysis
+		analysysstatus:valid
+		numsupernodes:2602
+		factornnz:5364258
+		factorestflops:3477824706
+		fbsestflops:18008057
+		rootfactestflops:74552512
+		rootfbsestflops:184224
+		analysistimesec:0.1368
+		analysismemkb:17648
+	$end matsolveranalysis
+	$begin matsolverfact
+		fatorizationstatus:valid
+		factorizationnumcores:4
+		factorizationtimesec:0.155821
+		factorizationmentotalkb:128081
+	$end matsolverfact
+	$begin matsolverfbs
+		fbstatus:valid
+		fbstype:fullsolve
+		fbsmt:false
+		fbsmrhs:false
+		fbsnumcores:4
+		fbsnumsolves:1
+		fbsavgsolvetime1solvesec:0.0091475
+		fbscputimesec:0.0091475
+		fbsmemorytotalkb:117180
+	$end matsolverfbs
+	$begin matsolverprofile
+		maxmemkb:128081
+		diskkb:0
+		totalrealtimesec:-1
+		totalcputimesec:-1
+		totaltimesec:-1
+	$end matsolverprofile
+$end matsolver

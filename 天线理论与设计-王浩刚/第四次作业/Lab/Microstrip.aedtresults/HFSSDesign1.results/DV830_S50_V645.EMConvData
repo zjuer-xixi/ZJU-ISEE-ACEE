@@ -1,0 +1,142 @@
+$begin 'EMConvergenceData'
+	$begin 'ConvInfo'
+		IsConverged=true
+		MaxPasses='20'
+		MinPasses='1'
+		ConvTarget='0.02'
+		ConvTargetConsecPasses='1'
+		ConvCurrentConsecPasses='1'
+	$end 'ConvInfo'
+	$begin 'ConvValues'
+		$begin 'QuantityValues'
+			PassNo=1
+			Intrinsics=''
+			SolvedElements(2.1440000000000000e+03, 0.0000000000000000e+00)
+		$end 'QuantityValues'
+		$begin 'QuantityValues'
+			PassNo=1
+			Intrinsics='Freq=\'10000000000\''
+			SolvedElements(2.1440000000000000e+03, 0.0000000000000000e+00)
+		$end 'QuantityValues'
+		$begin 'QuantityValues'
+			PassNo=2
+			Intrinsics=''
+			SolvedElements(2.7900000000000000e+03, 0.0000000000000000e+00)
+			MaxMagDeltaS(3.6850931386220864e-01, 0.0000000000000000e+00)
+		$end 'QuantityValues'
+		$begin 'QuantityValues'
+			PassNo=2
+			Intrinsics='Freq=\'10000000000\''
+			SolvedElements(2.7900000000000000e+03, 0.0000000000000000e+00)
+			MaxMagDeltaS(3.6850931386220864e-01, 0.0000000000000000e+00)
+		$end 'QuantityValues'
+		$begin 'QuantityValues'
+			PassNo=3
+			Intrinsics=''
+			SolvedElements(3.6310000000000000e+03, 0.0000000000000000e+00)
+			MaxMagDeltaS(1.0897708044569149e-01, 0.0000000000000000e+00)
+		$end 'QuantityValues'
+		$begin 'QuantityValues'
+			PassNo=3
+			Intrinsics='Freq=\'10000000000\''
+			SolvedElements(3.6310000000000000e+03, 0.0000000000000000e+00)
+			MaxMagDeltaS(1.0897708044569149e-01, 0.0000000000000000e+00)
+		$end 'QuantityValues'
+		$begin 'QuantityValues'
+			PassNo=4
+			Intrinsics=''
+			SolvedElements(4.7210000000000000e+03, 0.0000000000000000e+00)
+			MaxMagDeltaS(1.7199080147258794e-01, 0.0000000000000000e+00)
+		$end 'QuantityValues'
+		$begin 'QuantityValues'
+			PassNo=4
+			Intrinsics='Freq=\'10000000000\''
+			SolvedElements(4.7210000000000000e+03, 0.0000000000000000e+00)
+			MaxMagDeltaS(1.7199080147258794e-01, 0.0000000000000000e+00)
+		$end 'QuantityValues'
+		$begin 'QuantityValues'
+			PassNo=5
+			Intrinsics=''
+			SolvedElements(6.1390000000000000e+03, 0.0000000000000000e+00)
+			MaxMagDeltaS(5.5604439880579316e-02, 0.0000000000000000e+00)
+		$end 'QuantityValues'
+		$begin 'QuantityValues'
+			PassNo=5
+			Intrinsics='Freq=\'10000000000\''
+			SolvedElements(6.1390000000000000e+03, 0.0000000000000000e+00)
+			MaxMagDeltaS(5.5604439880579316e-02, 0.0000000000000000e+00)
+		$end 'QuantityValues'
+		$begin 'QuantityValues'
+			PassNo=6
+			Intrinsics=''
+			SolvedElements(7.9840000000000000e+03, 0.0000000000000000e+00)
+			MaxMagDeltaS(5.9147114945782467e-02, 0.0000000000000000e+00)
+		$end 'QuantityValues'
+		$begin 'QuantityValues'
+			PassNo=6
+			Intrinsics='Freq=\'10000000000\''
+			SolvedElements(7.9840000000000000e+03, 0.0000000000000000e+00)
+			MaxMagDeltaS(5.9147114945782467e-02, 0.0000000000000000e+00)
+		$end 'QuantityValues'
+		$begin 'QuantityValues'
+			PassNo=7
+			Intrinsics=''
+			SolvedElements(1.0383000000000000e+04, 0.0000000000000000e+00)
+			MaxMagDeltaS(5.6489786202195760e-02, 0.0000000000000000e+00)
+		$end 'QuantityValues'
+		$begin 'QuantityValues'
+			PassNo=7
+			Intrinsics='Freq=\'10000000000\''
+			SolvedElements(1.0383000000000000e+04, 0.0000000000000000e+00)
+			MaxMagDeltaS(5.6489786202195760e-02, 0.0000000000000000e+00)
+		$end 'QuantityValues'
+		$begin 'QuantityValues'
+			PassNo=8
+			Intrinsics=''
+			SolvedElements(1.3500000000000000e+04, 0.0000000000000000e+00)
+			MaxMagDeltaS(3.3761715293426468e-02, 0.0000000000000000e+00)
+		$end 'QuantityValues'
+		$begin 'QuantityValues'
+			PassNo=8
+			Intrinsics='Freq=\'10000000000\''
+			SolvedElements(1.3500000000000000e+04, 0.0000000000000000e+00)
+			MaxMagDeltaS(3.3761715293426468e-02, 0.0000000000000000e+00)
+		$end 'QuantityValues'
+		$begin 'QuantityValues'
+			PassNo=9
+			Intrinsics=''
+			SolvedElements(1.7556000000000000e+04, 0.0000000000000000e+00)
+			MaxMagDeltaS(3.8157879697011121e-02, 0.0000000000000000e+00)
+		$end 'QuantityValues'
+		$begin 'QuantityValues'
+			PassNo=9
+			Intrinsics='Freq=\'10000000000\''
+			SolvedElements(1.7556000000000000e+04, 0.0000000000000000e+00)
+			MaxMagDeltaS(3.8157879697011121e-02, 0.0000000000000000e+00)
+		$end 'QuantityValues'
+		$begin 'QuantityValues'
+			PassNo=10
+			Intrinsics=''
+			SolvedElements(2.1149000000000000e+04, 0.0000000000000000e+00)
+			MaxMagDeltaS(2.2484998528125133e-02, 0.0000000000000000e+00)
+		$end 'QuantityValues'
+		$begin 'QuantityValues'
+			PassNo=10
+			Intrinsics='Freq=\'10000000000\''
+			SolvedElements(2.1149000000000000e+04, 0.0000000000000000e+00)
+			MaxMagDeltaS(2.2484998528125133e-02, 0.0000000000000000e+00)
+		$end 'QuantityValues'
+		$begin 'QuantityValues'
+			PassNo=11
+			Intrinsics=''
+			SolvedElements(2.6236000000000000e+04, 0.0000000000000000e+00)
+			MaxMagDeltaS(1.8393890034769662e-02, 0.0000000000000000e+00)
+		$end 'QuantityValues'
+		$begin 'QuantityValues'
+			PassNo=11
+			Intrinsics='Freq=\'10000000000\''
+			SolvedElements(2.6236000000000000e+04, 0.0000000000000000e+00)
+			MaxMagDeltaS(1.8393890034769662e-02, 0.0000000000000000e+00)
+		$end 'QuantityValues'
+	$end 'ConvValues'
+$end 'EMConvergenceData'

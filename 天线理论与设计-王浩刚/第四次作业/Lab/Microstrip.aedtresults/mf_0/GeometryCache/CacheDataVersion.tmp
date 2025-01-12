@@ -1,0 +1,13 @@
+$begin 'CacheDataVersion'
+	DataVersion=13
+$end 'CacheDataVersion'
+$begin 'VariableValues'
+	h='0.127cm'
+	W='0.6339cm'
+	L='0.4255cm'
+	W0='0.0966cm'
+	y0='0.1714cm'
+	x0='W/2'
+	lambda='3cm'
+	d0='0.45mm'
+$end 'VariableValues'

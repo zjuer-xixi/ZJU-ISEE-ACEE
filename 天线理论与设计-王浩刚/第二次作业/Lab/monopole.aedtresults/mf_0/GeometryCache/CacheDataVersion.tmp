@@ -1,0 +1,10 @@
+$begin 'CacheDataVersion'
+	DataVersion=6
+$end 'CacheDataVersion'
+$begin 'VariableValues'
+	lambda='1000mm'
+	GND_length='lambda'
+	Height='lambda/4'
+	Radius='lambda/100'
+	Gap='lambda/4000'
+$end 'VariableValues'
