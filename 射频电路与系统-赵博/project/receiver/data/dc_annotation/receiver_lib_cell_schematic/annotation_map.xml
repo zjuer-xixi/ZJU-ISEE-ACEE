@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation_files Time="周三 1月 1 20:25:45 2025" Version="1.0" Simulator="hpeesofsim">
+ <File name="annotation_1.xml">
+  <Controller name="BPF1.HB1">
+   <P>freq: 2.4780000000000000e+09</P>
+   <P>_p2dInputPower: -1.0000000000000000e+02</P>
+  </Controller>
+ </File>
+ <File name="annotation_2.xml">
+  <Controller name="AMP1.HB1">
+   <P>freq: 2.4780000000000000e+09</P>
+   <P>_p2dInputPower: -1.0000000000000000e+02</P>
+  </Controller>
+ </File>
+ <File name="annotation_3.xml">
+  <Controller name="AMP2.HB1">
+   <P>freq: 3.0000000000000000e+07</P>
+   <P>_p2dInputPower: -1.0000000000000000e+02</P>
+  </Controller>
+ </File>
+ <File name="annotation_4.xml">
+  <Controller name="AMP3.HB1">
+   <P>freq: 2.0000000000000000e+06</P>
+   <P>_p2dInputPower: -1.0000000000000000e+02</P>
+  </Controller>
+ </File>
+ <File name="annotation_5.xml">
+  <Controller name="BPF2.HB1">
+   <P>freq: 2.0000000000000000e+06</P>
+   <P>_p2dInputPower: -1.0000000000000000e+02</P>
+  </Controller>
+ </File>
+</annotation_files>

@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      User
+HostName                       DESKTOP-GHVDOG6
+ProcessIdentifier              23944
+ProcessCreationTime_UTC        1736500975
+ProcessCreationTime_Readable   Fri Jan 10 17:22:55 2025 中国标准时间
+AppIdentifier                  OA File System Design Manager
+OSType                         win32
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         F:\ZJU-ISEE\RF_Circuit_System_ZhaoBo\project\receiver\receiver_lib\cell\schematic\sch.oa.cdslck.dirlck
+TimeEditLocked                 Fri Jan 10 18:11:10 2025 中国标准时间

@@ -1,0 +1,31 @@
+; Top Design: "receiver_lib:cell:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="receiver_lib:cell:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+Port:PORT1  N__3 0 Num=1 Z=50 Ohm P[1]=dbmtow(Power_RF) Freq[1]=RF    Noise=yes Pac=polar(dbmtow(0),0) LimitPhaseNoiseToCarrier=no 
+Budget:Budget  NonlinearAnalysis=1 NonlinearHarmonicOrder=3 CmpMaxPin=50 _dBm NoiseFreqSpan=1 MHz NoiseFreqStep=100 kHz NoiseResolutionBW=1 Hz TableComponentFormat=1 MeasurementFrequencyUnit=0 MeasurementAngleUnit=0 AutoFormatDisplay=1 OutputCSVFile=0 RunCommand=0 Measurement[1]="Cmp_NF_dB" Measurement[2]="Cmp_S21_dB" Measurement[3]="NF_RefIn_NoImage_dB" Measurement[4]="OutPwr_dBm" Measurement[5]="OutPGain_dB" Measurement[6]="InFreq" 
+#uselib "ckt" , "BPF_Butterworth"
+BPF_Butterworth:BPF1  N__3 N__2 Fcenter=RF BWpass=2 MHz Apass=3.0103 dB BWstop=10 MHz Astop=20 dB StopType="open" N=5 IL=1.5 dB Qu=1E308 Z1=50 Ohm Z2=50 Ohm 
+#uselib "ckt" , "BPF_Butterworth"
+BPF_Butterworth:BPF2  N__5 N__4 Fcenter=IF BWpass=1 MHz Apass=3.0103 dB BWstop=5 MHz Astop=20 dB StopType="open" N=5 IL=2 dB Qu=1E308 Z1=50 Ohm Z2=50 Ohm 
+#uselib "sml" , "Amplifier2"
+Amplifier2:AMP1  N__2 N__7 S21=dbpolar(16,0) S11=polar(0,0) S22=polar(0,180) S12=0 NF=2 dB GainCompType=0 ReferToInput=0 GainCompSat=5.0 dB GainComp=1.0 dB ClipDataFile=1 
+#uselib "sml" , "Amplifier2"
+Amplifier2:AMP2  N__8 N__9 S21=dbpolar(20,0) S11=polar(0,0) S22=polar(0,180) S12=0 NF=9 dB GainCompType=0 ReferToInput=0 GainCompSat=5.0 dB GainComp=1.0 dB ClipDataFile=1 
+#uselib "sml" , "Amplifier2"
+Amplifier2:AMP3  N__10 N__5 S21=dbpolar(20,0) S11=polar(0,0) S22=polar(0,180) S12=0 NF=9 dB GainCompType=0 ReferToInput=0 GainCompSat=5.0 dB GainComp=1.0 dB ClipDataFile=1 
+#uselib "sml" , "MixerWithLO"
+MixerWithLO:MIX1  N__7 N__8 ZRef=50 Ohm DesiredIF=1 ConvGain=dbpolar(-4,0) SP11=polar(0,0) SP22=polar(0,180) NF=19 dB ReferToInput=0 SOI=1000 TOI=1000 LO_Freq=LO1 
+#uselib "sml" , "MixerWithLO"
+MixerWithLO:MIX2  N__9 N__10 ZRef=50 Ohm DesiredIF=1 ConvGain=dbpolar(-4,0) SP11=polar(0,0) SP22=polar(0,180) NF=19 dB ReferToInput=0 SOI=1000 TOI=1000 LO_Freq=LO2 
+Port:Term3  N__4 0 Num=2 Z=50 Ohm Noise=yes 
+
+Power_RF=-60dBm
+
+RF=2478MHz
+
+LO1=2448MHz
+
+LO2=28MHz
+
+IF=2MHz

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DCOPData Time="周三 1月 1 20:25:45 2025" Version="1.0" Simulator="hpeesofsim">
+ <Controller name="BPF1.HB1">
+  <SweepCondition>
+   <P>freq: 2.4780000000000000e+09</P>
+   <P>_p2dInputPower: -1.0000000000000000e+02</P>
+  </SweepCondition>
+  <DC_OPDeclaration/>
+  <DC_Voltages>
+   <V>: 0.0000000000000000e+00</V>
+   <V>AMP1._net659: 0.0000000000000000e+00</V>
+   <V>BPF1.1: 0.0000000000000000e+00</V>
+   <V>BPF1.2: 0.0000000000000000e+00</V>
+   <V>_net2: 0.0000000000000000e+00</V>
+   <V>_net1: 0.0000000000000000e+00</V>
+   <GV>: 0.0000000000000000e+00</GV>
+  </DC_Voltages>
+  <DC_PinCurrents>
+   <I>BPF1: 0.0000000000000000e+00, 0.0000000000000000e+00</I>
+   <I>BPF1.Term1: 0.0000000000000000e+00, 0.0000000000000000e+00</I>
+   <I>BPF1.Term2: 0.0000000000000000e+00, 0.0000000000000000e+00</I>
+  </DC_PinCurrents>
+  <DC_OPInstances/>
+ </Controller>
+</DCOPData>
